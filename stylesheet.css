@@ -7,7 +7,15 @@ body {
 
 .navbar {
     height: 100px;
-	width: 1440px;
+	width: 1920px;
 	margin-top: -25px;
 	background-color: goldenrod;
+}
+
+.headerbanner {
+    height: 700px;
+    width: 1920px;
+    margin-top: 25px;
+    background-color: aquamarine;
+    float: left;
 }
