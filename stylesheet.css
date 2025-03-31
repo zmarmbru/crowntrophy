@@ -13,9 +13,17 @@ body {
 }
 
 .headerbanner {
-    height: 400px;
-    width: 1400px;
-    margin-top: 25px;
+    height: 500px;
+    width: 1440px;
+    margin-top: -25px;
     background-color: aquamarine;
     float: left;
+}
+
+.browseshowroom {
+	height: 250px;
+	width: 350px;
+	margin-top: -25px;
+	background-color: purple;
+	float: left;
 }
