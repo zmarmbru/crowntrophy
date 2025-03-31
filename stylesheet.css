@@ -6,5 +6,8 @@ body {
 }
 
 .navbar {
-
+    height: 100px;
+	width: 1440px;
+	margin-top: -25px;
+	background-color: goldenrod;
 }
