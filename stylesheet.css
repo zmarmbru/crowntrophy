@@ -44,3 +44,10 @@ body {
 	background-color: blue;
 	float: left;
 }
+
+.footer {
+    height: 200px;
+	width: 1440px;
+	margin-top: 25px;
+	background-color: brown;
+}
