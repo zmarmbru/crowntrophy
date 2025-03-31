@@ -27,3 +27,12 @@ body {
 	background-color: purple;
 	float: left;
 }
+
+.visitstore {
+	height: 250px;
+	width: 650px;
+	margin-top: 25px;
+	margin-left: 500px;
+	background-color: pink;
+	float: left;
+}
