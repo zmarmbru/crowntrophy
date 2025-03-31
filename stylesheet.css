@@ -8,22 +8,22 @@ body {
 .navbar {
     height: 200px;
 	width: 1440px;
-	margin-top: -50px;
+	margin-top: -25px;
 	background-color: goldenrod;
 }
 
 .headerbanner {
     height: 550px;
     width: 1440px;
-    margin-top: 50px;
+    margin-top: 25px;
     background-color: aquamarine;
     float: left;
 }
 
 .browseshowroom {
 	height: 250px;
-	width: 600px;
-	margin-top: 50px;
+	width: 650px;
+	margin-top: 25px;
 	background-color: purple;
 	float: left;
 }
