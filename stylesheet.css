@@ -21,7 +21,7 @@ body {
 }
 
 .browseshowroom {
-	height: 250px;
+	height: 300px;
 	width: 650px;
 	margin-top: 25px;
 	background-color: purple;
@@ -29,10 +29,10 @@ body {
 }
 
 .visitstore {
-	height: 250px;
+	height: 300px;
 	width: 650px;
 	margin-top: 25px;
-	margin-left: 500px;
+	margin-left: 800px;
 	background-color: pink;
 	float: left;
 }
