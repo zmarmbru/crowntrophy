@@ -36,3 +36,11 @@ body {
 	background-color: pink;
 	float: left;
 }
+
+.joinnewsletter {
+	height: 300px;
+	width: 650px;
+	margin-top: 25px;
+	background-color: blue;
+	float: left;
+}
