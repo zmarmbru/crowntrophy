@@ -40,7 +40,7 @@ body {
   /* Flex container for nav links */
   .nav-links {
 	display: flex;   /* Line up the links horizontally */
-	gap: 100px;       /* Space between each link */
+	gap: 50px;       /* Space between each link */
   }
   
   /* Individual link styling */
