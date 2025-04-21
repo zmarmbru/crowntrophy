@@ -21,7 +21,7 @@ body {
 	align-items: center;           /* Vertically center everything */
 	background-color: goldenrod;
 	padding: 15px 30px;
-	height: 50vh;
+	height: 10vh;
 	width: 100%;
   }
   
@@ -47,7 +47,7 @@ body {
   }
   
   .nav-links a:hover {
-	color: #ffcc00;
+	color: royalblue;
   }
   
   .container {
