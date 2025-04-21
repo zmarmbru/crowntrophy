@@ -21,7 +21,7 @@ body {
 	align-items: center;           /* Vertically center everything */
 	background-color: goldenrod;
 	padding: 15px 30px;
-	height: 10vh;
+	height: 15vh;
 	width: 100%;
   }
   
@@ -35,7 +35,7 @@ body {
   /* Flex container for nav links */
   .nav-links {
 	display: flex;   /* Line up the links horizontally */
-	gap: 200px;       /* Space between each link */
+	gap: 100px;       /* Space between each link */
   }
   
   /* Individual link styling */
