@@ -1,38 +1,42 @@
 body {
 	margin: 0;
 	background-color: lightgrey;
-	font-family:Arial, Helvetica, sans-serif
+	font-family: Arial, Helvetica, sans-serif
   }
 
-  ul {
-	list-style: none;
-	padding: 0;
+  * {
 	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
   }
   
-  /* Navbar container */
+  body {
+	font-family: Arial, sans-serif;
+  }
+  
+  /* Nav container */
   .navbar {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+	display: flex;                  /* Use Flexbox */
+	justify-content: space-between; /* Space between logo and links */
+	align-items: center;           /* Vertically center everything */
 	background-color: #333;
 	padding: 15px 30px;
-	color: gold;
   }
   
-  /* Logo */
+  /* Logo styling */
   .logo {
+	color: white;
 	font-size: 1.5em;
 	font-weight: bold;
   }
   
-  /* Nav links container */
+  /* Flex container for nav links */
   .nav-links {
-	display: flex;
-	gap: 20px;
+	display: flex;   /* Line up the links horizontally */
+	gap: 20px;       /* Space between each link */
   }
   
-  /* Links */
+  /* Individual link styling */
   .nav-links a {
 	color: white;
 	text-decoration: none;
@@ -41,7 +45,7 @@ body {
   }
   
   .nav-links a:hover {
-	color: #ffcc00; /* Highlight color on hover */
+	color: #ffcc00;
   }
   
   .container {
