@@ -19,7 +19,7 @@ body {
 	display: flex;                  /* Use Flexbox */
 	justify-content: space-between; /* Space between logo and links */
 	align-items: center;           /* Vertically center everything */
-	background-color: gold;
+	background-color: goldenrod;
 	padding: 15px 30px;
 	height: 50vh;
 	width: 100%;
