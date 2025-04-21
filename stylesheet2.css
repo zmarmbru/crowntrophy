@@ -14,31 +14,28 @@ body {
 	font-family: Arial, sans-serif;
   }
   
-  /* Nav container */
+ 
   .navbar {
-	display: flex;                  /* Use Flexbox */
-	justify-content: space-between; /* Space between logo and links */
-	align-items: center;           /* Vertically center everything */
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 	background-color: goldenrod;
 	padding: 15px 30px;
 	height: 15vh;
 	width: 100%;
   }
   
-  /* Logo styling */
   .logo {
 	color: white;
 	font-size: 1.5em;
 	font-weight: bold;
   }
   
-  /* Flex container for nav links */
   .nav-links {
-	display: flex;   /* Line up the links horizontally */
-	gap: 100px;       /* Space between each link */
+	display: flex;
+	gap: 100px;
   }
   
-  /* Individual link styling */
   .nav-links a {
 	color: black;
 	text-decoration: none;
