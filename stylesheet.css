@@ -65,7 +65,7 @@ body {
   }
   
   .banner {
-	background-color: black;
+	background-image: url(crownwebsite_bannerimg.png);
 	color: white;
 	margin-top: 3vh;
 	padding: 20px;
