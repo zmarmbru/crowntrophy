@@ -33,7 +33,7 @@ body {
   }
 
   .logo img {
-	height: 2vh;   /* Or whatever size fits your design */
+	height: 5vh;   /* Or whatever size fits your design */
 	width: auto;
   }
   
@@ -87,7 +87,7 @@ body {
   }
   
   .item1 {
-	background-image: url(showroom_web.png);
+	background-image: url(crown_showroom_web.png);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
