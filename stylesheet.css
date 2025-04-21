@@ -87,15 +87,13 @@ body {
   }
   
   .item1 {
-	background-color: royalblue;
+	background-image: url(showroom_web.png);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: white;
-	font-weight: bold;
   }
   
   .item2 {
