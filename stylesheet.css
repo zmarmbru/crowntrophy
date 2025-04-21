@@ -121,27 +121,23 @@ body {
   }
   
   .item4 {
-	background-color: royalblue;
+	background-image: url(crown_store_web.png);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: white;
-	font-weight: bold;
   }
   
   .item5 {
-	background-color: royalblue;
+	background-image: url(crown_showroom_web.png);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	color: white;
-	font-weight: bold;
   }
   
   .item6 {
