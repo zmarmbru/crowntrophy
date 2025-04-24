@@ -108,11 +108,11 @@ body {
 	  flex-direction: column;
 	}
   
-.item-1 {
+.item1 {
 	  order: 2;
 	}
   
-.item-2 {
+.item2 {
 	  order: 1;
 	}
   }
