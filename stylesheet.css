@@ -80,6 +80,20 @@ body {
 	width: 90%; 
 	gap: 20px;
   }
+
+  media (max-width: 550px) {
+	.flex-container {
+	  flex-direction: column; /* stack vertically */
+	}
+  
+	.item-1 {
+	  order: 3; /* move Item 1 below */
+	}
+  
+	.item-2 {
+	  order: 4; /* move Item 2 above */
+	}
+  }
   
   .item1 {
 	background-image: url(crown_showroom_web.png);
