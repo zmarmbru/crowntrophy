@@ -248,4 +248,7 @@ body {
 	flex-shrink: 0;
 	}
   
-  
+form {
+	width: 80%;
+	height: auto;
+}
