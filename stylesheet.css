@@ -61,15 +61,10 @@ body {
 	height: 100vh;
   }
   
-.banner {
-	background-image: url(crown_banner_web.png);
-	color: white;
-	margin-top: 3vh;
-	padding: 20px;
-	width: 93%;
-	height: 100%;
-	text-align: center;
-	align-content: center;
+.banner img {
+	width: 100%;
+	height: auto;
+	display: block;
   }
   
 .content {
