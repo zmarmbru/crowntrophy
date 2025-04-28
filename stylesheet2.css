@@ -59,6 +59,11 @@ body {
 	gap: 20px;
 	height: 100vh;
   }
+
+.container a {
+	color: black;
+	text-decoration: none;
+  }
   
 .banner img {
 	width: 100%;
