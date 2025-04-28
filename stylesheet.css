@@ -169,9 +169,3 @@ body {
 	margin-top: 3vh;
 	flex-shrink: 0;
   }
-
-.footerimg {
-	height: auto;
-	width: 50px;
-	max-width: 100%;
-}
