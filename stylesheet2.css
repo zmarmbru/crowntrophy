@@ -4,49 +4,167 @@ body {
 	font-family: Arial, Helvetica, sans-serif
   }
 
-  * {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
   }
   
-  body {
+body {
 	font-family: Arial, sans-serif;
   }
   
-  .navbar {
+.navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-color: goldenrod;
-	padding: 30px 30px;
+	padding: 75px 75px;
 	height: 15vh;
 	width: 100%;
   }
   
-  .logo {
+.logo {
 	color: white;
 	font-size: 1.5em;
 	font-weight: bold;
   }
 
-  .logo img {
+.logo img {
 	height: 7vh;
   }
   
-  .nav-links {
+.nav-links {
 	display: flex;
 	gap: 50px;
   }
   
-  .nav-links a {
+.nav-links a {
 	color: black;
 	text-decoration: none;
 	font-weight: 500;
-	font-size: x-large;
+	font-size: 1.5em;
 	transition: color 0.3s ease;
   }
   
-  .nav-links a:hover {
+.nav-links a:hover {
 	color: royalblue;
+  }
+  
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+	gap: 20px;
+	height: 100vh;
+  }
+  
+.banner img {
+	width: 100%;
+	height: auto;
+	display: block;
+	padding: 5vw;
+  }
+  
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	align-items: center;
+	width: 90%; 
+	gap: 20px;
+  }
+  
+.item1 {
+	background-image: url(crown_showroom_web.png);
+	width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+.item2 {
+	background-color: lightgrey;
+	width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-weight: bold;
+  }
+
+@media (max-width: 600px) {
+	.flex-container {
+	  flex-direction: column;
+	}
+  
+.item1 {
+	  order: 2;
+	}
+  
+.item2 {
+	  order: 1;
+	}
+  }
+  
+.item3 {
+	background-color: lightgrey;
+	width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-weight: bold;
+  }
+  
+.item4 {
+	background-image: url(crown_store_web.png);
+	width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+.item5 {
+	background-image: url(crown_newsletter_web.png);
+	width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+.item6 {
+	background-color: lightgrey;
+	width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-weight: bold;
+  }
+  
+.footer {
+	background-color: goldenrod;
+	color: black;
+	padding: 20px;
+	width: 100%;
+	text-align: center;
+	align-content: center;
+	font-size: 3vw;
+	height: 9vw;
+	margin-top: 3vh;
+	flex-shrink: 0;
   }
