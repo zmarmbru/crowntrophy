@@ -21,29 +21,26 @@
 		</div>
 	  </nav>
 
-	  <div class="input-group mb-3">
-		<span class="input-group-text" id="basic-addon1">Username</span>
-		<input type="text" class="form-control" placeholder="support@subaruenthusiasthub.com" aria-label="Username" aria-describedby="basic-addon1">
-	  </div>
-	  
-	  <div class="input-group mb-3">
-		<span class="input-group-text" id="basic-addon1">Password</span>
-		<input type="text" class="form-control" placeholder="please enter password" aria-label="Password" aria-describedby="basic-addon1">
-	  </div>
-	  
-	  <div class="input-group mb-3">
-		<span class="input-group-text" id="basic-addon1">First Name</span>
-		<input type="text" class="form-control" placeholder="ex. Brian" aria-label="Firstname">
-		<span class="input-group-text" id="basic-addon1">Last Name</span>
-		<input type="text" class="form-control" placeholder="ex. Nolan" aria-label="Lastname">
-		<form action="/action_page.php">
+	<form action="/submit-form" method="POST">
+		<div class="input-group mb-3">
+			<span class="input-group-text" id="basic-addon1">Email</span>
+			<input type="email" class="form-control" placeholder="ex. crowntrophy@gmail.com" aria-label="Email" aria-describedby="basic-addon1" required>
 		</div>
-		  <br>
-		  <label for="myfile">Select files:</label>
-		  <input type="file" id="myfile" name="myfile" multiple><br><br>
-		</form>
-	  <button type="submit" class="btn btn-primary">Submit</button>
-	</div>
+		
+		<div class="input-group mb-3">
+			<span class="input-group-text" id="basic-addon2">Message</span>
+			<textarea class="form-control" placeholder="Please enter your message" aria-label="Message" aria-describedby="basic-addon2" rows="4" required></textarea>
+		</div>
+		
+		<div class="input-group mb-3">
+			<span class="input-group-text" id="basic-addon3">First Name</span>
+			<input type="text" class="form-control" placeholder="e.g. Brian" aria-label="First Name" required>
+			<span class="input-group-text" id="basic-addon4">Last Name</span>
+			<input type="text" class="form-control" placeholder="e.g. Nolan" aria-label="Last Name" required>
+		</div>
+	
+		<button type="submit" class="btn btn-primary">Submit</button>
+	</form>	
 
 </body>
 
