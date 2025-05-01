@@ -4,13 +4,13 @@ body {
 	font-family: Arial, Helvetica, sans-serif
 	}
   
-  * {
+* {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 	}
 	
-  .navbar {
+.navbar {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -20,22 +20,22 @@ body {
 	width: 100%;
   }
   
-  .logo {
+.logo {
 	color: white;
 	font-size: 1.5em;
 	font-weight: bold;
   }
   
-  .logo img {
+.logo img {
 	height: 7vh;
   }
   
-  .nav-links {
+.nav-links {
 	display: flex;
 	gap: 50px;
   }
   
-  .nav-links a {
+.nav-links a {
 	color: black;
 	text-decoration: none;
 	font-weight: 500;
@@ -43,7 +43,7 @@ body {
 	transition: color 0.3s ease;
   }
   
-  @media screen and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 	.navbar {
 	  padding: 50px 30px;
 	}
@@ -61,7 +61,7 @@ body {
 	}
   }
   
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.navbar {
 	  padding: 30px 20px;
 	  flex-direction: column;
@@ -85,7 +85,7 @@ body {
 	}
   }
   
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 	.navbar {
 	  padding: 20px 10px;
 	}
@@ -103,23 +103,23 @@ body {
 	}
   }
   
-  .nav-links a:hover {
+.nav-links a:hover {
 	color: royalblue;
   }
   
-  @media screen and (max-width: 768px) {
+@media screen and (max-width: 768px) {
 	.nav-links a {
 	  font-size: 1.2rem;
 	}
   }
   
-  @media screen and (max-width: 480px) {
+@media screen and (max-width: 480px) {
 	.nav-links a {
 	  font-size: 1rem;
 	}
   }
   
-  .container {
+.container {
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
@@ -128,24 +128,24 @@ body {
 	height: 100vh;
 	}
   
-  .container a {
+.container a {
 	color: black;
 	text-decoration: none;
 	transition: color 0.3s ease;
   }
 
-  .container a:hover {
+.container a:hover {
 	color: royalblue;
   }
 	
-  .banner img {
+.banner img {
 	width: 100%;
 	height: auto;
 	display: block;
 	padding: 5vw;
 	}
 	
-  .content {
+.content {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
@@ -155,11 +155,12 @@ body {
 	margin-bottom: 6vh;
 	}
 	
-  .item1 {
+.item1 {
 	background-image: url(crown_showroom_web.png);
 	border-style: solid;
   	border-width: 0.5rem;
 	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
@@ -168,7 +169,7 @@ body {
 	justify-content: center;
 	}
 	
-  .item2 {
+.item2 {
 	background-color: lightgrey;
 	width: 550px;
 	height: 300px;
@@ -180,21 +181,21 @@ body {
 	font-weight: bold;
 	}
   
-  @media (max-width: 600px) {
+@media (max-width: 600px) {
 	.flex-container {
 	  flex-direction: column;
 	}
 	
-  .item1 {
+.item1 {
 	  order: 2;
 	}
 	
-  .item2 {
+.item2 {
 	  order: 1;
 	}
 	}
 	
-  .item3 {
+.item3 {
 	background-color: lightgrey;
 	width: 550px;
 	height: 300px;
@@ -206,11 +207,12 @@ body {
 	font-weight: bold;
 	}
 	
-  .item4 {
+.item4 {
 	background-image: url(crown_store_web.png);
 	border-style: solid;
   	border-width: 0.5rem;
 	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
@@ -219,11 +221,12 @@ body {
 	justify-content: center;
 	}
 	
-  .item5 {
+.item5 {
 	background-image: url(crown_newsletter_web.png);
 	border-style: solid;
   	border-width: 0.5rem;
 	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
@@ -232,7 +235,7 @@ body {
 	justify-content: center;
 	}
 	
-  .item6 {
+.item6 {
 	background-color: lightgrey;
 	width: 550px;
 	height: 300px;
@@ -244,17 +247,20 @@ body {
 	font-weight: bold;
 	}
 	
-  .footer {
+.footer {
 	background-color: goldenrod;
 	color: black;
 	padding: 20px;
 	width: 100%;
 	text-align: center;
 	align-content: center;
-	font-size: 3vw;
-	height: 9vw;
+	font-size: 1vw;
+	height: 10vw;
 	margin-top: 3vh;
 	flex-shrink: 0;
 	}
-  
-  
+	  
+.footer img {
+	height: 4vh;
+	width: auto;
+	}
