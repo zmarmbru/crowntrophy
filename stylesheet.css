@@ -160,6 +160,7 @@ body {
 	border-style: solid;
   	border-width: 0.5rem;
 	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
@@ -211,6 +212,7 @@ body {
 	border-style: solid;
   	border-width: 0.5rem;
 	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
@@ -224,6 +226,7 @@ body {
 	border-style: solid;
   	border-width: 0.5rem;
 	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 550px;
 	height: 300px;
 	margin-top: 3vh;
