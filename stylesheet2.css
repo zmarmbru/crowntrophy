@@ -45,7 +45,7 @@ body {
   
 @media screen and (max-width: 1024px) {
 	.navbar {
-	  padding: 50px 30px;
+		padding: 50px 30px;
 	}
   
 	.logo {
@@ -63,10 +63,10 @@ body {
   
 @media screen and (max-width: 768px) {
 	.navbar {
-	  padding: 30px 20px;
-	  flex-direction: column;
-	  height: auto;
-	  justify-content: center;
+		padding: 30px 20px;
+		flex-direction: column;
+		height: auto;
+		justify-content: center;
 	}
   
 	.logo {
@@ -87,7 +87,7 @@ body {
   
 @media screen and (max-width: 480px) {
 	.navbar {
-	  padding: 20px 10px;
+		padding: 20px 10px;
 	}
   
 	.logo {
@@ -109,13 +109,13 @@ body {
   
 @media screen and (max-width: 768px) {
 	.nav-links a {
-	  font-size: 1.2rem;
+		font-size: 1.2rem;
 	}
   }
   
 @media screen and (max-width: 480px) {
 	.nav-links a {
-	  font-size: 1rem;
+		font-size: 1rem;
 	}
   }
   
@@ -183,7 +183,7 @@ body {
   
 @media (max-width: 600px) {
 	.flex-container {
-	  flex-direction: column;
+		flex-direction: column;
 	}
 	
 .item1 {
@@ -264,3 +264,5 @@ body {
 	height: 4vh;
 	width: auto;
 	}
+  
+  
