@@ -276,7 +276,7 @@ form h3 {
 form {
 	background: white;
 	width: 100%;
-	max-width: 1800px;
+	max-width: 1200px;
 	margin: auto;
 	padding: 20px;
 	border-radius: 10px;
@@ -328,7 +328,7 @@ button:hover {
 	transition: background-color 0.3s ease;
 	}
 	  
-@media (max-width: 1800px) {
+@media (max-width: 1200px) {
 	.row .col {
 		min-width: 100%;
 		}
