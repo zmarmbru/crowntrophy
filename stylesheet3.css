@@ -177,7 +177,7 @@ body {
 	color: royalblue;
 	font-weight: bold;
 	font-size: 18px;
-	transition: 0.6s ease;
+	transition: 0.3s ease;
   }
   
   .next {
@@ -195,15 +195,15 @@ body {
 	height: 30px;
 	width: 30px;
 	margin: 0 2px;
-	background-color: black;
+	background-color: royalblue;
 	border-radius: 50%;
 	display: inline-block;
-	transition: background-color 0.6s ease;
+	transition: background-color 0.3s ease;
   }
   
   .active, .dot:hover {
 	background-color: lightslategrey;
-	  animation-name: cycle;
+	animation-name: cycle;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
   }
@@ -244,15 +244,15 @@ body {
   }
  
   @keyframes cycle {
-	0% {background-color: white;}
-	50% {background-color: black;}
-	100% {background-color: white;}
+	0% {background-color: goldenrod;}
+	50% {background-color: royalblue;}
+	100% {background-color: goldenrod;}
   }
   
   @keyframes cycletext {
-	0% {color: white;}
-	50% {color: black;}
-	100% {color: white;}
+	0% {color: goldenrod;}
+	50% {color: royalblue;}
+	100% {color: goldenrod;}
   }
   
   .fade {
