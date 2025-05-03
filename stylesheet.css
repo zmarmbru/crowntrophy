@@ -161,7 +161,8 @@ body {
   	border-width: 0.5rem;
 	border-color: royalblue;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-	width: 550px;
+	width: 100%;
+  	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
@@ -171,7 +172,8 @@ body {
 	
 .item2 {
 	background-color: lightgrey;
-	width: 550px;
+	width: 100%;
+  	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
@@ -181,23 +183,10 @@ body {
 	font-weight: bold;
 	}
   
-@media (max-width: 600px) {
-	.flex-container {
-		flex-direction: column;
-	}
-	
-.item1 {
-	  order: 2;
-	}
-	
-.item2 {
-	  order: 1;
-	}
-	}
-	
 .item3 {
 	background-color: lightgrey;
-	width: 550px;
+	width: 100%;
+  	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
@@ -213,7 +202,8 @@ body {
   	border-width: 0.5rem;
 	border-color: royalblue;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-	width: 550px;
+	width: 100%;
+  	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
@@ -227,7 +217,8 @@ body {
   	border-width: 0.5rem;
 	border-color: royalblue;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
-	width: 550px;
+	width: 100%;
+  	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
@@ -237,7 +228,8 @@ body {
 	
 .item6 {
 	background-color: lightgrey;
-	width: 550px;
+	width: 100%;
+  	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
 	display: flex;
@@ -247,6 +239,20 @@ body {
 	font-weight: bold;
 	}
 	
+@media (max-width: 768px) {
+		.content {
+		  flex-direction: column;
+		  align-items: center;
+		}
+  
+	.item1 { order: 1; }
+	.item2 { order: 2; }
+	.item4 { order: 3; }
+	.item3 { order: 4; }
+	.item5 { order: 5; }
+	.item6 { order: 6; }
+	}	  
+
 .footer {
 	background-color: goldenrod;
 	color: black;
