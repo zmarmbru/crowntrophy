@@ -191,8 +191,7 @@ body {
   .dot {
 	position: relative;
 	bottom: 10px;
-	cursor:pointer;
-	height: auto;
+	cursor: pointer;
 	height: 20px;
   	width: 20px;
 	background-color: royalblue;
