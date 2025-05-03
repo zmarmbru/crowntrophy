@@ -174,7 +174,7 @@ body {
 	width: auto;
 	margin-top: -22px;
 	padding: 16px;
-	color: black;
+	color: royalblue;
 	font-weight: bold;
 	font-size: 18px;
 	transition: 0.6s ease;
@@ -185,7 +185,7 @@ body {
   }
   
   .prev:hover, .next:hover {
-	background-color: rgba(0,0,0,0.8);
+	background-color: goldenrod;
   }
   
   .dot {
@@ -228,15 +228,6 @@ body {
 	animation-iteration-count: infinite;
   }
   
-  .nav {
-	display: grid;
-	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
-	grid-gap: 3vw 2vw;
-	margin: 2vw;
-	color: white;
-	background-color: black;
-  }
-  
   .wrapper{
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); 
@@ -251,61 +242,7 @@ body {
 	max-width: 100%;
 	height: auto;
   }
-  
-  h1 {
-	color: white;
-	font-size: 4vw;
-	padding: 0 0 0 0;
-	margin: 2vw 0 0 0;
-  }
-  
-  h2 {
-	color: black;
-	font-family: 'Poppins', sans-serif;
-	text-align: center;
-	font-size: 3vw;
-	padding-top: 36px;
-  }
-  
-  h4 {
-	font-size: 1.25vw;
-	text-align: center;
-	padding: 0 0 0 0;
-	margin: 0 0 0 0;
-	animation-name: cycletext;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-  }
-  
-  p {
-	margin: 50% auto 50% auto;
-	padding: 1vw 1.5vw 1vw 1.5vw;
-	font-size: 2vw;
-  
-  }
-  
-  a:link {
-	text-decoration: none;
-	color: white;
-  }
-  
-  a:visited {
-	color: white;
-	animation-name: cycletext;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-  }
-  
-  a:hover {
-	animation-name: cycletext;
-	animation-duration: 3s;
-	animation-iteration-count: infinite;
-  }
-  
-  a:active {
-	color: white;
-  }
-  
+ 
   @keyframes cycle {
 	0% {background-color: white;}
 	50% {background-color: black;}
