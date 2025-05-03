@@ -155,6 +155,193 @@ body {
 	margin-bottom: 6vh;
 	}
 	
+ /*BEGIN SLIDESHOW CODE*/
+ .slideshow-container {
+	max-width: 1000px;
+	position: relative;
+	margin: auto;
+	margin-top: 45px;
+  }
+  
+  .mySlides {
+	  display: none;
+  }
+  
+  .prev, .next {
+	cursor: pointer;
+	position: absolute;
+	top: 50%;
+	width: auto;
+	margin-top: -22px;
+	padding: 16px;
+	color: black;
+	font-weight: bold;
+	font-size: 18px;
+	transition: 0.6s ease;
+  }
+  
+  .next {
+	right: 0.7vw;
+  }
+  
+  .prev:hover, .next:hover {
+	background-color: rgba(0,0,0,0.8);
+  }
+  
+  .dot {
+	position: relative;
+	bottom: 10px;
+	cursor:pointer;
+	height: 30px;
+	width: 30px;
+	margin: 0 2px;
+	background-color: black;
+	border-radius: 50%;
+	display: inline-block;
+	transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+	background-color: lightslategrey;
+	  animation-name: cycle;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+  }
+  
+  .headerimg {
+	padding: 3% 40% 3% 40%;
+	scale: 85%;
+	max-width: 100%;
+	min-width: 25%;
+  }
+  
+  .header {
+	width: 100%;
+	height: auto;
+	text-align: center;
+	background-color: transparent;
+  }
+  
+  .h_one {
+	animation-name: cycleTxt;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+  }
+  
+  .nav {
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr);
+	grid-gap: 3vw 2vw;
+	margin: 2vw;
+	color: white;
+	background-color: black;
+  }
+  
+  .wrapper{
+	display: grid;
+	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); 
+	grid-gap: 3vw 6vw;
+	padding-top: 60px;
+	margin: 2vw;
+	color: white;
+	background-color: white;
+  }
+  
+  img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  h1 {
+	color: white;
+	font-size: 4vw;
+	padding: 0 0 0 0;
+	margin: 2vw 0 0 0;
+  }
+  
+  h2 {
+	color: black;
+	font-family: 'Poppins', sans-serif;
+	text-align: center;
+	font-size: 3vw;
+	padding-top: 36px;
+  }
+  
+  h4 {
+	font-size: 1.25vw;
+	text-align: center;
+	padding: 0 0 0 0;
+	margin: 0 0 0 0;
+	animation-name: cycletext;
+	animation-duarion: 3s;
+	animation-iteration-count: infinite;
+  }
+  
+  p {
+	margin: 50% auto 50% auto;
+	padding: 1vw 1.5vw 1vw 1.5vw;
+	font-size: 2vw;
+  
+  }
+  
+  /* unvisited or new link */
+  a:link {
+	text-decoration: none;
+	color: white;
+  }
+  
+  /* previously visited link */
+  a:visited {
+	color: white;
+	animation-name: cycletext;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+  }
+  
+  /* mouse over link */
+  a:hover {
+	animation-name: cycletext;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+  }
+  
+  /* click on link */
+  a:active {
+	color: white;
+  }
+  
+  @keyframes cycle {
+	0% {background-color: white;}
+	50% {background-color: black;}
+	100% {background-color: white;}
+  }
+  
+  @keyframes cycletext {
+	0% {color: white;}
+	50% {color: black;}
+	100% {color: white;}
+  }
+  
+  /* Fading animation */
+  .fade {
+	-webkit-animation-name: fade;
+	-webkit-animation-duration: 1.5s;
+	animation-name: fade;
+	animation-duration: 1.5s;
+  }
+  
+  @-webkit-keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+  
+  @keyframes fade {
+	from {opacity: .4}
+	to {opacity: 1}
+  }
+  
+  /*END SLIDESHOW CODE*/
+
 .footer {
 	background-color: goldenrod;
 	color: black;
