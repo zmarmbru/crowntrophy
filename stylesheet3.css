@@ -277,10 +277,10 @@ body {
 .storebodycopy {
 	display: flex;
 	justify-content: center;
-	align-items: center; /* aligns content vertically if there's height */
-	flex-direction: column; /* stack text vertically */
+	align-items: center;
+	flex-direction: column;
 	width: 500px;
-	margin: 0 auto; /* center the box itself */
+	margin: 0 auto;
 	text-align: center;
  }
 	  
