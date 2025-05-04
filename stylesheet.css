@@ -255,7 +255,7 @@ body {
 	.item6 { order: 6; }
 	}	  
 
-.content button {
+.item2 button {
 	background-color: royalblue;
 	border: none;
 	color: white;           
@@ -268,11 +268,11 @@ body {
 	transition: background-color 0.3s ease;
 	}
 	
-.content button:hover {
+.item2 button:hover {
 	background-color: goldenrod;
 	}
 	
-.content button:active {
+.item2 button:active {
 	background-color: rgb(207, 135, 1)
 	}	
 
