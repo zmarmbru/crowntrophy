@@ -277,7 +277,6 @@ body {
   /* END SLIDESHOW CODE */
 
 .storebodycopy {
-	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	align-content: center;
 	flex-direction: column;
@@ -290,7 +289,7 @@ body {
 	font-family: Arial, Helvetica, sans-serif;
 	color: black;
 	text-decoration: none;
-	font-weight: 500;
+	font-weight: 1000;
 	font-size: 1.5rem;
 }
 	  
