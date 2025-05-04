@@ -11,6 +11,7 @@ body {
 	}
 	
 .navbar {
+	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
