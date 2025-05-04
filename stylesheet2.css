@@ -159,9 +159,6 @@ body {
 
 .item1 {
 	background-image: url(crown_sports_web.png);
-	border-style: solid;
-	border-width: 0.5rem;
-	border-color: royalblue;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 100%;
 	max-width: 550px;
@@ -200,9 +197,6 @@ body {
 		
 .item4 {
 	background-image: url(crown_corporate_web.png);
-	border-style: solid;
-	border-width: 0.5rem;
-	border-color: royalblue;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 100%;
 	max-width: 550px;
@@ -215,9 +209,6 @@ body {
 		
 .item5 {
 	background-image: url(crown_achievement_web.png);
-	border-style: solid;
-	border-width: 0.5rem;
-	border-color: royalblue;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 100%;
 	max-width: 550px;
