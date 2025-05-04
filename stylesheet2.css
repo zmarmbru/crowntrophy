@@ -247,7 +247,28 @@ body {
 	.item3 { order: 4; }
 	.item5 { order: 5; }
 	.item6 { order: 6; }
-	}	
+	}
+
+.button {
+	background-color: royalblue;
+	border: none;
+	color: white;         
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: white 0.3s ease;
+	}
+		
+.button:hover {
+	background-color: goldenrod;
+	}
+		
+.button:active {
+	background-color: rgb(207, 135, 1)
+	}
 	
 .footer {
 	background-color: goldenrod;
