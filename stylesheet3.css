@@ -195,11 +195,11 @@ body {
   }
 
   .prev {
-	left: 0.7vw;
+	left: 2vw;
 }
   
 .next {
-	right: 0.7vw;
+	right: 2vw;
   }
   
   .prev:hover, .next:hover {
