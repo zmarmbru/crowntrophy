@@ -160,6 +160,7 @@ body {
  /* BEGIN SLIDESHOW CODE */
 
  .slideshow-container {
+	align-content: center;
 	max-height: 500px;
 	height: auto;
 	position: relative;
