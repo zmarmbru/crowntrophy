@@ -156,6 +156,104 @@ body {
 	gap: 20px;
 	margin-bottom: 6vh;
 	}
+
+.item1 {
+	background-image: url(crown_showroom_web.png);
+	border-style: solid;
+	border-width: 0.5rem;
+	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+		
+.item2 {
+	background-color: lightgrey;
+	width: 100%;
+	max-width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-weight: bold;
+	}
+	  
+.item3 {
+	background-color: lightgrey;
+	width: 100%;
+	max-width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-weight: bold;
+	}
+		
+.item4 {
+	background-image: url(crown_store_web.png);
+	border-style: solid;
+	border-width: 0.5rem;
+	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+		
+.item5 {
+	background-image: url(crown_custom_web.png);
+	border-style: solid;
+	border-width: 0.5rem;
+	border-color: royalblue;
+	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+	width: 100%;
+	max-width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	}
+		
+.item6 {
+	background-color: lightgrey;
+	width: 100%;
+	max-width: 550px;
+	height: 300px;
+	margin-top: 3vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: black;
+	font-weight: bold;
+	}
+		
+@media (max-width: 768px) {
+	.content {
+	flex-direction: column;
+	align-items: center;
+	}
+	  
+	.item1 { order: 1; }
+	.item2 { order: 2; }
+	.item4 { order: 3; }
+	.item3 { order: 4; }
+	.item5 { order: 5; }
+	.item6 { order: 6; }
+	}	
 	
 .footer {
 	background-color: goldenrod;
