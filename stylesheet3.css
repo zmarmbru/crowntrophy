@@ -276,6 +276,8 @@ body {
 
 .storebodycopy {
 	align-content: center;
+	width: 50%;
+	height: auto;
 	h1 {
 		font-size: clamp(1.5rem, 4vw, 3rem);
 	}	  
