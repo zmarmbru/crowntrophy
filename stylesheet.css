@@ -255,6 +255,27 @@ body {
 	.item6 { order: 6; }
 	}	  
 
+.button {
+	background-color: royalblue;
+	border: none;
+	color: white;           
+	padding: 12px 24px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	}
+	
+.button:hover {
+	background-color: goldenrod;
+	}
+	
+.button:active {
+	background-color: rgb(207, 135, 1)
+	}	
+
 .footer {
 	background-color: goldenrod;
 	color: black;
