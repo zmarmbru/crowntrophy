@@ -130,13 +130,8 @@ body {
 	}
   
 .container a {
-	color: black;
 	text-decoration: none;
 	transition: color 0.3s ease;
-  }
-
-.container a:hover {
-	color: royalblue;
   }
 	
 .banner img {
