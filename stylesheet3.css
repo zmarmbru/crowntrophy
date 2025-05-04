@@ -159,7 +159,7 @@ body {
 	
  /* BEGIN SLIDESHOW CODE */
 
- .slideshow-container {
+.slideshow-container {
 	max-height: 500px;
 	height: auto;
 	position: relative;
@@ -169,7 +169,7 @@ body {
 	align-items: center;
   }
   
-  .slideshow-container img {
+.slideshow-container img {
 	max-width: 600px;
 	width: auto;
 	max-height: 500px;
@@ -177,8 +177,7 @@ body {
 	display: block;
   }
   
-  
-  .mySlides {
+.mySlides {
 	  display: none;
   }
   
@@ -195,7 +194,7 @@ body {
 	transition: 0.3s ease;
   }
   
-  .next {
+.next {
 	right: 0.7vw;
   }
   
@@ -203,7 +202,7 @@ body {
 	background-color: royalblue;
   }
   
-  .dot {
+.dot {
 	position: relative;
 	bottom: 10px;
 	cursor: pointer;
@@ -215,34 +214,34 @@ body {
 	transition: background-color 0.3s ease;
   }
   
-  .active, .dot:hover {
+.active, .dot:hover {
 	background-color: lightslategrey;
 	animation-name: cycle;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
   }
   
-  .headerimg {
+.headerimg {
 	padding: 3% 40% 3% 40%;
 	scale: 85%;
 	max-width: 100%;
 	min-width: 25%;
   }
   
-  .header {
+.header {
 	width: 100%;
 	height: auto;
 	text-align: center;
 	background-color: transparent;
   }
   
-  .h_one {
+.h_one {
 	animation-name: cycleTxt;
 	animation-duration: 3s;
 	animation-iteration-count: infinite;
   }
   
-  .wrapper{
+.wrapper{
 	display: grid;
 	grid-template-columns: minmax(0, 1fr) minmax(0, 1fr) minmax(0, 1fr); 
 	grid-gap: 3vw 6vw;
@@ -252,36 +251,36 @@ body {
 	background-color: white;
   }
   
-  img {
+img {
 	max-width: 100%;
 	height: auto;
   }
  
-  @keyframes cycle {
+@keyframes cycle {
 	0% {background-color: goldenrod;}
 	50% {background-color: royalblue;}
 	100% {background-color: goldenrod;}
   }
   
-  @keyframes cycletext {
+@keyframes cycletext {
 	0% {color: goldenrod;}
 	50% {color: royalblue;}
 	100% {color: goldenrod;}
   }
   
-  .fade {
+.fade {
 	-webkit-animation-name: fade;
 	-webkit-animation-duration: 1.5s;
 	animation-name: fade;
 	animation-duration: 1.5s;
   }
   
-  @-webkit-keyframes fade {
+@-webkit-keyframes fade {
 	from {opacity: .4}
 	to {opacity: 1}
   }
   
-  @keyframes fade {
+@keyframes fade {
 	from {opacity: .4}
 	to {opacity: 1}
   }
