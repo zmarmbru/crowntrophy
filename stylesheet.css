@@ -173,6 +173,7 @@ body {
 	display: block;
 	align-items: center;
 	justify-content: center;
+	flex-direction: column;
 	color: black;
 	font-weight: bold;
 	}
