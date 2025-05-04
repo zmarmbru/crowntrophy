@@ -276,8 +276,7 @@ body {
 
 .storebodycopy {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	align-content: center;
 	flex-direction: column;
 	width: 800px;
 	margin: 0 auto;
