@@ -155,7 +155,8 @@ body {
 	margin-bottom: 6vh;
 	}
 	
- /*BEGIN SLIDESHOW CODE*/
+ /* BEGIN SLIDESHOW CODE */
+
  .slideshow-container {
 	max-width: 1000px;
 	position: relative;
@@ -271,7 +272,11 @@ body {
 	to {opacity: 1}
   }
   
-  /*END SLIDESHOW CODE*/
+  /* END SLIDESHOW CODE */
+
+.storebodycopy {
+	text-align: center;
+}
 
 .footer {
 	background-color: goldenrod;
