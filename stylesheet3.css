@@ -285,11 +285,11 @@ body {
  }
 	  
 .storebodycopy h1 {
-	font-size: clamp(1.5rem, 4vw, 3rem);
+	font-size: clamp(1.5rem, 1vw, 3rem);
 }
 	  
 .storebodycopy h3 {
-	font-size: clamp(1.5rem, 4vw, 3rem);
+	font-size: clamp(1.5rem, 1vw, 3rem);
 }
 	  
 .storebodycopy a {
