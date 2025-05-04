@@ -292,11 +292,22 @@ body {
 	font-size: clamp(1.5rem, 4vw, 3rem);
 }
 	  
+.storebodycopy a {
+	color: black;
+	text-decoration: none;
+	font-weight: 500;
+	font-size: 1.5rem;
+	transition: color 0.3s ease;
+  }
+
+.storebodycopy a:hover {
+	color: royalblue;
+}
 
 a {
 	color: black;
 	text-decoration: none;
-  }
+}
   
 .footer {
 	background-color: goldenrod;
