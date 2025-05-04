@@ -161,7 +161,7 @@ body {
 	background-image: url(crown_showroom_web.png);
 	border-style: solid;
   	border-width: 0.5rem;
-	border-color: royalblue;
+	border-color: goldenrod;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 100%;
   	max-width: 550px;
@@ -178,7 +178,7 @@ body {
   	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
 	color: black;
@@ -191,7 +191,7 @@ body {
   	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
 	color: black;
@@ -202,7 +202,7 @@ body {
 	background-image: url(crown_store_web.png);
 	border-style: solid;
   	border-width: 0.5rem;
-	border-color: royalblue;
+	border-color: goldenrod;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 100%;
   	max-width: 550px;
@@ -217,7 +217,7 @@ body {
 	background-image: url(crown_custom_web.png);
 	border-style: solid;
   	border-width: 0.5rem;
-	border-color: royalblue;
+	border-color: goldenrod;
 	box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
 	width: 100%;
   	max-width: 550px;
@@ -234,7 +234,7 @@ body {
   	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
 	color: black;
