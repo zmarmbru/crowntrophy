@@ -170,10 +170,9 @@ body {
   	max-width: 550px;
 	height: 300px;
 	margin-top: 3vh;
-	display: flex;
+	display: block;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 	color: black;
 	font-weight: bold;
 	}
@@ -187,7 +186,6 @@ body {
 	display: block;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 	color: black;
 	font-weight: bold;
 	}
@@ -225,7 +223,6 @@ body {
 	display: block;
 	align-items: center;
 	justify-content: center;
-	text-align: center;
 	color: black;
 	font-weight: bold;
 	}
