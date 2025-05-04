@@ -160,20 +160,23 @@ body {
  /* BEGIN SLIDESHOW CODE */
 
  .slideshow-container {
-	align-content: center;
 	max-height: 500px;
 	height: auto;
 	position: relative;
-	margin: auto;
-	margin-top: 45px;
+	margin: 45px auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
   }
-
-.slideshow-container img {
+  
+  .slideshow-container img {
 	max-width: 600px;
 	width: auto;
 	max-height: 500px;
 	height: auto;
+	display: block;
   }
+  
   
   .mySlides {
 	  display: none;
@@ -250,7 +253,7 @@ body {
   }
   
   img {
-	max-width: 50%;
+	max-width: 100%;
 	height: auto;
   }
  
