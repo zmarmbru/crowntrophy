@@ -173,6 +173,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	text-align: center
 	color: black;
 	font-weight: bold;
 	}
@@ -186,6 +187,7 @@ body {
 	display: block;
 	align-items: center;
 	justify-content: center;
+	text-align: center
 	color: black;
 	font-weight: bold;
 	}
@@ -223,6 +225,7 @@ body {
 	display: block;
 	align-items: center;
 	justify-content: center;
+	text-align: center
 	color: black;
 	font-weight: bold;
 	}
