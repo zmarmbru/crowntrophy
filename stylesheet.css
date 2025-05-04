@@ -265,7 +265,7 @@ body {
 	display: inline-block;
 	font-size: 16px;
 	cursor: pointer;
-	transition: background-color 0.3s ease;
+	transition: black 0.3s ease;
 	}
 	
 .button:hover {
