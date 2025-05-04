@@ -277,6 +277,7 @@ body {
   /* END SLIDESHOW CODE */
 
 .storebodycopy {
+	font-family: Arial, Helvetica, sans-serif;
 	display: flex;
 	align-content: center;
 	flex-direction: column;
