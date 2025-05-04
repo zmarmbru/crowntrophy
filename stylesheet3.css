@@ -281,7 +281,10 @@ body {
 	height: auto;
 	h1 {
 		font-size: clamp(1.5rem, 4vw, 3rem);
-	}	  
+	};
+	h3 {
+		font-size: clamp(1.5rem, 4vw, 3rem);
+	}	
 }
 
 a {
