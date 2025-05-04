@@ -172,7 +172,7 @@ body {
 	margin-top: 3vh;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
 	flex-direction: column;
 	color: black;
 	font-weight: bold;
@@ -186,7 +186,7 @@ body {
 	margin-top: 3vh;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
 	flex-direction: column;
 	color: black;
 	font-weight: bold;
@@ -224,7 +224,7 @@ body {
 	margin-top: 3vh;
 	display: flex;
 	align-items: center;
-	justify-content: center;
+	justify-content: left;
 	flex-direction: column;
 	color: black;
 	font-weight: bold;
