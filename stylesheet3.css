@@ -168,9 +168,9 @@ body {
   }
 
 .slideshow-container img {
-	max-width: 500px;
+	max-width: 600px;
 	width: auto;
-	max-height: 400px;
+	max-height: 500px;
 	height: auto;
   }
   
@@ -346,5 +346,3 @@ a {
 	height: 4vh;
 	width: auto;
 	}
-  
-  
